@@ -31,7 +31,8 @@ const StatementPage = () => {
 
       <ul>
         <li><a href="/">Dashboard</a></li>
-        <li>Statement</li>
+        <li><a href="/app-manager/">Apps</a></li>
+        <li>Reports</li>
         <li><a href="/debug/">Debug</a></li>
       </ul>
 
