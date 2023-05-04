@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "servatron --bind localhost -p 8001 -d dist & npm run watch",
     "build": "node build.js",
     "watch": "node build.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,6 +21,7 @@
   "devDependencies": {
     "chokidar": "^3.5.3",
     "debounce": "^1.2.1",
-    "esbuild": "^0.17.17"
+    "esbuild": "^0.17.17",
+    "servatron": "^2.4.3"
   }
 }
